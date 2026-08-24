@@ -1,0 +1,13 @@
+/**
+ * Module 12 — Marketing, Notifications & Interactive
+ * axios দিয়ে backend /marketing endpoint-এ কল করার ফাংশন এখানে লিখবে।
+ *
+ * STUB — এখানে এখনো কোনো ইমপ্লিমেন্টেশন নেই।
+
+ * উদাহরণ প্যাটার্ন (দেখো api/users.ts):
+ *   import { apiClient } from "@/api/client";
+ *   export async function getX(id: number) { ... }
+ */
+// import { apiClient } from "@/api/client"; // TODO: ফাংশন লেখার সময় আনকমেন্ট করো
+
+// TODO: Marketing মডিউলের API ফাংশন লেখো

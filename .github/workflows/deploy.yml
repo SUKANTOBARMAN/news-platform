@@ -1,0 +1,23 @@
+name: Deploy
+
+# এই ওয়ার্কফ্লো একটা স্টার্টিং পয়েন্ট -- আসল সার্ভার/হোস্টিং ঠিক করার পর
+# (Laravel Forge, VPS + SSH, AWS ECS, ইত্যাদি) এখানে deploy step যোগ করবে।
+# আপাতত শুধু main branch-এ push হলে trigger হয়, এবং আগের দুটো CI workflow
+# pass করার উপর নির্ভরশীল (needs:) রাখা যেতে পারে repo সেটিংসে branch protection দিয়ে।
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Placeholder deploy step
+        run: |
+          echo "TODO: এখানে actual deployment স্টেপ যোগ করো।"
+          echo "উদাহরণ: SSH দিয়ে সার্ভারে গিয়ে 'docker compose -f docker-compose.prod.yml up -d --build' চালানো,"
+          echo "অথবা কোনো cloud provider-এর deploy action ব্যবহার করা।"

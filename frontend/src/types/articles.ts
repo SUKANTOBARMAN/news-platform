@@ -1,0 +1,12 @@
+/**
+ * Module 6 — Core Editorial Engine
+ * backend/app/schemas/articles.py-র সাথে মিলিয়ে TypeScript ইন্টারফেস এখানে লিখবে।
+ *
+ * STUB — এখানে এখনো কোনো টাইপ নেই।
+ *
+ * লেখার পর src/types/index.ts থেকে re-export করলে বাকি কোডে
+ * import { X } from "@/types" একইভাবে কাজ করবে।
+ */
+
+// TODO: Articles মডিউলের ইন্টারফেস লেখো
+export {};
